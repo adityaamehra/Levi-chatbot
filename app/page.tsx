@@ -52,9 +52,10 @@ export default function LEVIChallenge() {
   const [setupPhoto, setSetupPhoto] = useState<string>("")
   const [leaderboardError, setLeaderboardError] = useState<string | null>(null)
 
+  const f1 = process.env.FLAG;
   const flag = gameState.username
-    ? `COPS{54BHI1_KI_VULN3R4B1LITIE5_H0Ti_HAI_BHAI_${encodeUsername(gameState.username)}}`
-    : ""
+    ? `${f1}${encodeUsername(gameState.username)}`
+    : "";
 
   // Load leaderboard on mount
   useEffect(() => {
