@@ -89,7 +89,7 @@ export default function ChatInterface({
       <Card className="bg-gray-800 border-gray-700">
         <CardHeader>
           <CardTitle className="flex items-center justify-between text-white">
-            <span>Chat with LEVI 🤖</span>
+            <span>Chat with LEVI</span>
             <div className="flex items-center space-x-2">
               {hasPhoto && (
                 <Badge variant="outline" className="bg-green-900/30 text-green-300 border-green-700">
@@ -137,8 +137,6 @@ export default function ChatInterface({
                     <p className="text-xs opacity-70">{message.timestamp.toLocaleTimeString()}</p>
                     {message.role === "user" && hasPhoto && (
                       <div className="flex items-center space-x-1 text-xs opacity-70">
-                        <Camera className="w-3 h-3" />
-                        <span>with photo</span>
                       </div>
                     )}
                   </div>
@@ -189,7 +187,7 @@ export default function ChatInterface({
                 className="w-full bg-blue-600 hover:bg-blue-700 text-white"
               >
                 <Send className="w-4 h-4 mr-2" />
-                Send Message {hasPhoto ? "with Photo" : ""}
+                Send Message
               </Button>
             </form>
           )}

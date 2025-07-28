@@ -456,7 +456,7 @@ export default function LEVIChallenge() {
       <div className="max-w-4xl mx-auto space-y-6">
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-3xl font-bold text-white">Welcome, {gameState.username}! 👋</h1>
+            <h1 className="text-3xl font-bold text-white">Welcome, {gameState.username}!</h1>
             <p className="text-gray-300">You have 3 attempts to extract the hidden information from LEVI.</p>
           </div>
 
