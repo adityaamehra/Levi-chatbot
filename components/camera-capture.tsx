@@ -100,7 +100,7 @@ export default function CameraCapture({ onCapture, captured }: CameraCaptureProp
         <CardContent className="p-4">
           <div className="text-center space-y-4">
             <div className="flex items-center justify-between">
-              <span className="text-sm font-medium text-green-300">📸 Photo Captured Successfully!</span>
+              <span className="text-sm font-medium text-green-300">Photo Captured Successfully!</span>
               <Button
                 onClick={removePhoto}
                 size="sm"
@@ -162,7 +162,7 @@ export default function CameraCapture({ onCapture, captured }: CameraCaptureProp
             disabled={isCapturing}
           >
             <Camera className="w-5 h-5 mr-2" />
-            {isCapturing ? "📸 Taking Photo..." : "📸 Take Photo Now"}
+            {isCapturing ? "Taking Photo..." : "Take Photo Now"}
           </Button>
 
           {/* Hidden video and canvas elements */}

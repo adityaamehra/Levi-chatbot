@@ -112,7 +112,7 @@ export default function ChatInterface({
               <div className="text-center text-gray-400 py-8">
                 <p>👋 Hey fresher! I'm LEVI, your senior at IIT(BHU).</p>
                 <p>Ask me anything... but I might be hiding something 😏</p>
-                {hasPhoto && <p className="text-sm text-green-400 mt-2">📸 I can see your photo - looking good!</p>}
+                {hasPhoto && <p className="text-sm text-green-400 mt-2">I can see your photo - looking good!</p>}
               </div>
             )}
 
@@ -150,7 +150,7 @@ export default function ChatInterface({
               <div className="flex justify-start">
                 <div className="bg-gray-700 text-gray-100 p-3 rounded-lg">
                   <p>LEVI is typing... 💭</p>
-                  {hasPhoto && <p className="text-xs text-gray-400 mt-1">📸 Analyzing your photo...</p>}
+                  {hasPhoto && <p className="text-xs text-gray-400 mt-1">Analyzing your photo...</p>}
                 </div>
               </div>
             )}
@@ -189,7 +189,7 @@ export default function ChatInterface({
                 className="w-full bg-blue-600 hover:bg-blue-700 text-white"
               >
                 <Send className="w-4 h-4 mr-2" />
-                Send Message {hasPhoto ? "with Photo 📸" : ""}
+                Send Message {hasPhoto ? "with Photo" : ""}
               </Button>
             </form>
           )}

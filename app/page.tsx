@@ -286,9 +286,9 @@ export default function LEVIChallenge() {
       <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white p-4">
         <div className="max-w-4xl mx-auto space-y-8">
           <div className="text-center space-y-4">
-            <h1 className="text-4xl font-bold text-white">LEVI: Prompt Injection Challenge 🤖</h1>
+            <h1 className="text-4xl font-bold text-white">LEVI: Cybersecurity Challenge</h1>
             <p className="text-lg text-gray-300">
-              Can you extract the hidden flag from LEVI, the IIT(BHU) senior chatbot?
+              Can you extract the hidden information from LEVI, the IIT(BHU) senior chatbot? Who is gatekeeping it from you.
             </p>
           </div>
 
@@ -394,14 +394,14 @@ export default function LEVIChallenge() {
                     {!usernameInput.trim()
                       ? "Enter Username First"
                       : !setupPhoto
-                        ? "Take Photo First 📸"
-                        : "Start Challenge 🚀"}
+                        ? "Take Photo First"
+                        : "Start Challenge"}
                   </Button>
                 </CardContent>
               </Card>
 
               <div className="space-y-2 text-center">
-                <h3 className="text-lg font-semibold text-white">📸 Take Your Photo (Required)</h3>
+                <h3 className="text-lg font-semibold text-white">Take Your Photo (Required)</h3>
                 <p className="text-sm text-gray-400 max-w-md mx-auto">
                   LEVI needs to see you to participate in this challenge. Your photo will be sent with every message.
                 </p>
@@ -457,7 +457,7 @@ export default function LEVIChallenge() {
         <div className="flex items-center justify-between">
           <div>
             <h1 className="text-3xl font-bold text-white">Welcome, {gameState.username}! 👋</h1>
-            <p className="text-gray-300">You have 3 attempts to extract the hidden flag from LEVI.</p>
+            <p className="text-gray-300">You have 3 attempts to extract the hidden information from LEVI.</p>
           </div>
 
           <div className="flex items-center space-x-4">
